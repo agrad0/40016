@@ -1,0 +1,39 @@
+*   {
+    box-sizing: border-box;
+    width: auto;
+}
+
+div {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    transition: all 2s ease-out;
+    cursor: pointer;
+}
+
+.first {
+    background-color: red;
+}
+
+.first:hover {
+    width: 300px;
+}
+
+.second {
+    background-color: blue;
+}
+
+.second:hover {
+    height: 300px;
+}
+
+.third {
+    background-color: green;    
+}
+
+.third:hover {
+    width: 300px;
+    height: 300px;
+}
+
